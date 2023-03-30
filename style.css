@@ -1,0 +1,301 @@
+/* this applies to all pages */
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    color: #a0a0a0;
+    display: block;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+   
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .header a.active {
+    background-color: #cc0000;
+    color: #a0a0a0;
+  }
+  
+.header-right {
+    float: right;
+  }
+  
+ @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: inline-block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+h1, h2, h3, h4, h5, h6, p , ul{
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a.active{
+    color: #cc0000; 
+}
+a.visited{
+    color: #00ffff;
+}
+
+li{
+  text-indent: 5em;
+  list-style-type: none;
+}
+
+.button{
+  background-color: #ff660070;
+  border: 1px solid #009900;
+  border-radius: 12px;
+  padding: 5px 5px;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover{
+  background-color: #00ffff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.aside {
+  background-image: url("https://images5.alphacoders.com/615/615291.jpg");
+  background-size: cover;
+  border: 1px solid white;
+  color: #080808;
+  width: 30%;
+  height: 500px;
+  padding: 0px 15px 0px 15px;
+  margin: 0px 15px 15px 15px;
+  float: left;
+  font-style: italic;
+  word-break: break-all;
+
+}
+
+/*item rarity colors*/
+.white{
+  color: #ffffff;
+  font-weight: 700;
+}
+.blue{
+  color: #005f9d;
+  font-weight: 700;
+}
+.yellow{
+  color: #fbea74;
+  font-weight: 700;
+}
+.gold{
+  color: #bf9b30;
+  font-weight: 700;
+}
+.green{
+  color:#009900;
+  font-weight: 700;
+}
+.red{
+  color: #660000;
+  font-weight: 700;
+}
+
+footer{
+    font-size: 10px;
+    color: #a0a0a0;
+}
+
+/* Main */
+
+.main_body {
+  background-color: #080808;
+  color: #a0a0a0;
+  width: auto;
+  height: auto;
+  
+}
+
+.img_main{
+    max-width: 1025px;
+    width: 100vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1m{
+    text-align: center;
+}
+
+.main_body{
+    padding: 0px 35px 0px 35px; 
+}
+
+
+
+/* --l_g_r page-- */
+
+.body_lgr{
+  background-image: url("https://images8.alphacoders.com/481/481264.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0px 35px 0px 35px;
+  color: #a0a0a0;
+}
+
+
+
+/*rotating photo gallery*/
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+*:before, *:after{
+  box-sizing: border-box;
+}
+
+.quality{
+	display: inline-block;
+	margin: 5% auto 0;
+	max-height: 700px;
+  width: auto;
+}
+
+.yangs{
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.yangs1:hover, .yangs2:hover, .yangs3:hover{
+	transform: scale(1.5,1.5);
+}
+.yangs{
+  display: flex;
+}
+.column{
+  flex: 33.33%;
+  padding: 5px;
+  margin: 0px 150px 0px 150px;
+}
+
+table{
+  border-collapse: collapse;
+  background-color: #ff800075;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #a0a0a0;
+  margin: auto;
+  padding: 5px;
+}
+
+tr, th, td{
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+
+th{
+  color: #a0a0a0
+}
+
+/* Builds and classes */
+
+.body_builds{
+  background-image: url("https://cdn.wallpapersafari.com/39/66/DGB7Vq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 35px;
+  color: #080808;
+}
+
+.intro{
+  border: 1px solid #a0a0a0;
+  background-color: #d0d0d050;
+  float: right;
+  padding: 10px;
+  width: 65%;
+  
+}
+
+.collapsible {
+  background-color: #22222290;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 35px;
+  font-weight: 700;
+}
+.active, .collapsible:hover {
+  background-color: #3f3c2c90;
+  color:#009900
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #675e4670;
+  padding: 25px;
+}
+.img_button{
+  width: 50px;
+  float: right;
+}
+
+.build_header{
+  text-align: center;
+}
+
+.set_gear{
+  display: flex;
+}
+.set{
+  border: 1px solid #a0a0a0;
+  flex: 25%;
+  padding: 10px;
+  margin: 0px 15px 0px 15px;
+}
+
+.part{
+  text-align: center;
+} 
